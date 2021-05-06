@@ -1,0 +1,25 @@
+#body{
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    color:#6a6ae6;  
+} 
+nav img{
+    height: 50px;
+}
+nav li {
+    margin: auto;
+}
+mark{
+    background-color: white;
+    color: black;
+}
