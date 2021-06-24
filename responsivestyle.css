@@ -1,0 +1,28 @@
+@media all and (max-device-width: 480px)
+{
+    html{
+        font-size: 100%;
+    }
+    header{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+nav ul{
+    flex-direction: column;
+}
+
+.filtericone{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+.filtre{
+    display: inline;
+}
+
+}
