@@ -18,9 +18,16 @@ nav img{
 nav li {
     margin: auto 20px;
 }
+.navtitre :hover{
+    text-decoration: underline;
+}
  mark{
     color: black;
     background-color:white
+    }
+    .plus{
+        color: black;
+        text-decoration: none;
     }
     /*MAIN*/
 
@@ -80,6 +87,9 @@ nav li {
     transition-duration: 0.1s;
     font-weight: bold;
 }
+.ft{
+    border: none;
+}
 .icone {
     color: #0065FC;
     background-color: #DEEBFF;
@@ -93,6 +103,9 @@ nav li {
     justify-content: center;
     margin: -2px;
 }
+.ptext{
+    padding-left: 5px;
+}
 
 .titre{
     padding-left: 1rem;
@@ -105,7 +118,6 @@ nav li {
     flex-direction: row-reverse;
     justify-content: space-between;
     width: 100%;
-    text-decoration: none;
     }
 .hbgmmain{
     border: solid 2px #f2f2f2;
@@ -122,44 +134,66 @@ nav li {
 
 .etoile{
     display: flex;
+    padding-left: 5px;
+    color: #0065FC;
 }
 .hbgmart{
     border: solid 3px white;
-    background-color: teal;
+    background-color: white;
     border-radius: 15px;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    
+    width: 90%;
+    height: 200px;
+    margin: 30px auto 30px auto;
+
 
 }
+.tote{
+    text-decoration: none;
+}
 
-.fig{
-    margin: 0;
+.fig{display: block;
+    margin: 0px;
 }
 .pht{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     color: white;
     width: 100%;
-    height: 210px;
-    width: 290px;
+    height: 120px;
+    object-fit: cover;
+    padding-bottom: 2px;
 }
+
+.caption{
+    color: black;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.descp{
+    margin: 0;
+}
+.cat{
+    color: black;
+    padding-left: 5px;
+    margin: 0;
+}
+
 /*populaires*/
 
 .popumain{
     border: solid 2px #F2F2F2;
     border-radius: 15px;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     width: 27%;
     order: 2;
     position: absolute;
     right: 0px;
 }
 .boitepopulaires{
-    padding: 0 20px;
-    
+    padding:0 20px;   
 }
+
 .fa-chart-line{
     text-align: right;
     padding-left: 120px;
@@ -170,19 +204,23 @@ nav li {
     display:flex;
     border: solid 3px white;
     border-radius: 15px;
-    background-color: teal;
+    background-color: white;
     margin-top: 20px;
     margin-bottom: 20px;
-    max-height: 250px;
+    height: 158px;
     text-decoration: none;
+    
+    }
+    .boitepopuetoile{
+    margin: 0;
+    }
+    .catpopu{
+        color: black;
+        margin: 0;
     }
 .popuimg{
         margin: 0;
     }
-
-.boitepopuetoile{
-    display:
-}
 
 .popupht{
     border-top-left-radius: 10px;
@@ -191,17 +229,94 @@ nav li {
     height: 130px;
     object-fit: cover;
     padding-top: 3px;
-    padding-bottom: 3px;
-
+    padding-bottom: 0px;
+}
+.boitepopuicon{
+    color: #0065FC;
+}
+.gris{
+    color: #F2F2F2
 }
 /*Activités*/
 
 .activite{
     display: grid;
     column-gap: 15px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto 15px 15px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    row-gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
+    margin: 4rem 0;
+}
+.activitetitre{
+    grid-column: 1/-1;
+}
+.boite{
+display: flex;
+flex-direction: column;
+box-shadow: 0 0 10px gray;
+border-radius: 1rem;
+text-decoration: none;
+}
+.imgactivite{
+    position: relative;
+    flex: 1;
 
+}
+.phtactivite{
+    border-radius: 1rem;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.activite1{
+    grid-column: 1/2;
+    grid-row: 2/7;
+}
+.activite2{
+    grid-column: 2/3;
+    grid-row: 2/5;
+}
+.activite3{
+    grid-row: 2/7;
+    grid-column: 3/4;
+}
+.activite4{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.activite5{
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+.activite6{
+    grid-column: 4/5;
+    grid-row: 4/7;
+}
+.nomactivite{
+    text-decoration:none;
+    color: black;
+    padding-left: 5px;
+}
+/*footer*/
+.feet{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    background-color: #f2f2f2;
+    
+}
+.boitefeet{
+    display: flex;
+    flex-direction:column;
+    padding-left: 0;
+}
+.titrefeet{
+
+}
+.feeta{
+    text-decoration: none;
+    color: black;
 }
