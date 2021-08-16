@@ -11,20 +11,23 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="responsivestyle.css" />
     <link rel="stylesheet" href="style.css" />
-
+    <link rel="stylesheet" href="tablettestyle.css" />
 </head>
 
 <body>
     <!--header-->
     <header>
         <nav>
-            <div class="logoreservia">
+            <div class="logo">
                 <img src="images/logo/Reservia@3x.png" alt="logo" />
+                <div class="linavi">s'inscrire</div>
             </div>
             <ul class="navtitre">
-                <li>hebergements</li>
-                <li><mark>activités</mark></li>
-                <li>s'inscrire</li>
+                <div class="linav" href="tote">
+                    <li class="linavhbgm">hebergements </li>
+                    <li class="linavhbgm lina">activités</li>
+                </div>
+
             </ul>
         </nav>
     </header>
@@ -42,6 +45,7 @@
                 <input class="rechercheformrechercheinput" type="search" placeholder="Marseille ,france" size="1">
                 <button class="sea">
                     <span class="seatext">recherche</span>
+                    <i class="fas fa-search"></i>
 
                 </button>
             </form>
@@ -285,6 +289,7 @@
 
         <section class="activite" id="activite">
             <h2 class="activiteTitre">Activités à Marseille</h2>
+
             <a href="#" class="boite activite1">
                 <div class="imgactivite">
                     <img class="phtactivite" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
@@ -327,6 +332,7 @@
                 </div>
                 <h3 class="nomactivite">Parc Longchamp</h3>
             </a>
+
         </section>
     </main>
     <!--footer-->
