@@ -4,4 +4,16 @@
         justify-content: space-around;
         flex-wrap: wrap;
     }
+    .imgactivite{
+        position: unset !important;
+
+    }
+    .phtactivite{
+        position: unset !important;
+        
+    }
+    .boite{
+        width: 30%;
+        height: 300px;
+    }
 }

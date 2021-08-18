@@ -26,8 +26,21 @@ nav img{
 nav li {
     margin: auto 20px;
 }
+.logo{
+    display: flex;
+    justify-content: space-between;
+
+}
+.linavi{
+    padding-top: 18px;
+    margin-left: 300px;
+
+}
 .linav{
     display: flex;
+}
+.linavhbgm{
+    padding-right: 50px;
 }
 .navtitre :hover{
     text-decoration: underline;
