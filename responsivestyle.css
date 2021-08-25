@@ -30,7 +30,10 @@ margin-top: 20px;
     
     padding-top: 40px;
 }
-
+.inscription{
+    display: none !important;
+    visibility: hidden !important;
+}
 .linavhbgm {
     border-bottom: 2px solid #0065fc;
     width: 50%;
@@ -55,6 +58,7 @@ margin-top: 20px;
     text-align: right;
     padding-top: 0px !important;
     margin-top: 20px;
+    visibility: visible !important;
 }
 .rechercheform{
     height: 40px;
@@ -211,7 +215,7 @@ margin-top: -24px !important;
 }
 .activiteTitre{
     grid-column: 1/-1;
-    
+    padding-left: 20px;
     padding-top: 15px;
 }
 .boite{
@@ -261,6 +265,12 @@ margin: 15px;
     body{
         width: 100%;
     }
+    .linavi{
+        visibility: hidden !important;
+    }
+    .inscription{
+    color: black;
+    }
     .hbgm{
         display: flex !important;
         flex-direction: column !important;
@@ -275,7 +285,11 @@ margin: 15px;
             
             padding: 0 20px !important;
             width: 100% !important;
-            margin-top: 1px !important;      
+            margin-top: 30px !important;
+            margin-bottom: 30px;      
+    }
+    .boitehebergement {
+        padding-bottom: 15px;
     }
     .popumain{
         border-radius: 0px !important;
@@ -283,17 +297,8 @@ margin: 15px;
         position: unset !important;
         height: 100%;
     }
-    activite{
-        display: grid;
-    column-gap: 2rem;
-    margin: 4rem 0;
-        row-gap: 2rem;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: auto 12rem 12rem;
-    }
-    
-    .boite{
-        
+    .activiteTitre{
+        padding-left: 20px;
     }
 
 

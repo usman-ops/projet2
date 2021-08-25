@@ -29,15 +29,16 @@ nav li {
 .logo{
     display: flex;
     justify-content: space-between;
-
 }
 .linavi{
     padding-top: 18px;
-    margin-left: 300px;
-
+    visibility: hidden;
 }
 .linav{
     display: flex;
+}
+.inscription{
+    color: black;
 }
 .linavhbgm{
     padding-right: 50px;
@@ -305,7 +306,8 @@ text-decoration: none;
 
 }
 .phtactivite{
-    border-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
     position: absolute;
     height: 100%;
     width: 100%;
