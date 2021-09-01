@@ -22,6 +22,7 @@ ul{
 } 
 nav img{
     height: 50px;
+    margin-left: 13px;
 }
 nav li {
     margin: auto 20px;
@@ -37,7 +38,7 @@ nav li {
 .linav{
     display: flex;
 }
-.inscription{
+.lina{
     color: black;
 }
 .linavhbgm{
@@ -160,6 +161,9 @@ nav li {
     width: 70%;
     order: 1;
     }
+    .titremarseille{
+        padding-left: 35px;
+    }
 .boitehebergement{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -226,6 +230,9 @@ nav li {
     order: 2;
     position: absolute;
     right: 0px;
+}
+.poputitre{
+    padding-left: 20px;
 }
 .boitepopulaires{
     padding:0 20px;   
