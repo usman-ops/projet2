@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
     .activite{
         display: flex;
         justify-content: space-around;
@@ -10,10 +10,52 @@
     }
     .phtactivite{
         position: unset !important;
-        
     }
     .boite{
         width: 30%;
         height: 300px;
     }
-}
+    
+        body{
+            width: 100%;
+        }
+        .linavi{
+            visibility: hidden !important;
+        }
+        .inscription{
+        color: #0065fc;
+        }
+        .hbgm{
+            display: flex !important;
+            flex-direction: column !important;
+            align-content: space-between;
+            width: 100% !important;
+        }
+        .hbgmaside{
+            background-color: #F2F2F2 !important;
+            padding: 0 20px !important;
+        }
+        .hbgmmain{
+                
+                padding: 0 20px !important;
+                width: 100% !important;
+                margin-top: 30px !important;
+                margin-bottom: 30px;      
+        }
+        .boitehebergement {
+            padding-bottom: 15px;
+        }
+        .popumain{
+            border-radius: 0px !important;
+            width: 100% !important;
+            position: unset !important;
+            height: 100%;
+        }
+        .activiteTitre{
+            padding-left: 20px;
+        }
+    
+    
+    
+    }
+

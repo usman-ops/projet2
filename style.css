@@ -1,5 +1,4 @@
 * { 
-    margin: ;
     padding: 0;
     box-sizing: border-box;
 }
@@ -13,7 +12,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 ul{
     display: flex;
@@ -155,7 +153,6 @@ nav li {
     flex-direction: row-reverse;
     justify-content: space-between;
     width: 100%;
-    
     }
 .hbgmmain{
     border: solid 2px #f2f2f2;
@@ -190,9 +187,6 @@ nav li {
 }
 .tote{
     text-decoration: none;
-}
-.tote :hover{
-    
 }
 
 .fig{display: block;
@@ -291,16 +285,16 @@ nav li {
 }
 /*Activités*/
 
+.activiteTitre{
+    padding-left: 20px;
+}
 .activite{
     display: grid;
     column-gap: 15px;
     row-gap: 15px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
-    margin: 4rem 0;
-}
-.activitetitre{
-    grid-column: 1/-1;
+    margin: 0 20px;
 }
 .boite{
 display: flex;
@@ -358,15 +352,11 @@ text-decoration: none;
     padding-bottom: 20px;
     margin-top: 30px;
     background-color: #f2f2f2;
-    
 }
 .boitefeet{
     display: flex;
     flex-direction:column;
     padding-left: 0;
-}
-.titrefeet{
-
 }
 .feeta{
     text-decoration: none;

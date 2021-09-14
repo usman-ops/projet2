@@ -1,0 +1,10 @@
+@media screen and (min-width: 1024px){
+    .hbgm{
+        padding: 0 20px;
+    }
+    .activite{
+        width: 100%;
+        padding: 0 20px !important;
+    }
+    
+}
