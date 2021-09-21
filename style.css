@@ -123,6 +123,9 @@ nav li {
 .ft{
     border: none;
 }
+.fil{
+    padding-right: 10px;
+}
 .icone {
     color: #0065FC;
     background-color: #DEEBFF;
