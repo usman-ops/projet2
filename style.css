@@ -36,14 +36,20 @@ nav li {
 .linav{
     display: flex;
 }
+.linu{
+    color: #0065FC;
+    text-decoration: none;
+}
 .lina{
     color: black;
+    text-decoration: none;
 }
 .linavhbgm{
     padding-right: 50px;
+    
 }
 .navtitre :hover{
-    text-decoration: underline;
+    text-decoration: ;
 }
  mark{
     color: black;

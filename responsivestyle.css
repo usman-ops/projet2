@@ -13,10 +13,11 @@
 
 .navtitre{
     display: flex;
-    flex-direction:row-reverse;
+    flex-direction:row;
     flex-wrap: wrap;
     justify-content: space-around;
-width: 100% !important;
+    width: 100% !important;
+    border-bottom: 2px solid #F2F2F2;
 }
 .logo{
 width: 100%;
@@ -36,18 +37,19 @@ margin-top: 20px;
     visibility: hidden !important;
 }
 .linavhbgm {
-    border-bottom: 2px solid #0065fc;
     width: 50%;
     margin: 0;
     display: flex;
     justify-content: center;
+}.linui{
+    border-bottom: 2px solid #0065fc;
+    
 }
 .lina{
-    border-bottom: 2px solid #F2F2F2;
+    
     width: 50%;
     display: flex;
     justify-content: center;
-
 }
 .linavi{
     padding-right: 10px;
