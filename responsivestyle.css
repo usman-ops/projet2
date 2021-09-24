@@ -10,6 +10,13 @@
         display: flex;
         flex-direction: column;
     }
+    .ubication{
+        width: 70px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 
 .navtitre{
     display: flex;
@@ -40,8 +47,9 @@ margin-top: 20px;
     width: 50%;
     margin: 0;
     display: flex;
-    justify-content: center;
-}.linui{
+    justify-content: flex-end;
+}
+.linui{
     border-bottom: 2px solid #0065fc;
     
 }
@@ -53,7 +61,7 @@ margin-top: 20px;
 }
 .linavi{
     padding-right: 10px;
-    font-size: 1,2rem;
+    font-size: 1.2rem;
     order: 1;
     width: 45%;
     text-align: right;
@@ -88,6 +96,9 @@ button{
     left: -15px;
     height: 100%;
 }
+.fa-search{
+    visibility: visible !important;
+}
 .seatext{
     display: none;
 }
@@ -97,15 +108,19 @@ button{
     flex-wrap: wrap;
     font-size: 1.1rem;
 }
+.fil{
+    width: 100%;
+}
 .titre{
     
     width: 100%;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 
 .filtre{
     margin-bottom: 20px;
     padding-left: 2px;
+    margin-right: 0px !important;
 }
 .fas.fa-search{
     display: inline-block;
@@ -116,6 +131,10 @@ button{
     line-height: 40px;
     top: 0px;
 }
+.crl{
+    width: 1.8rem !important;
+    margin-bottom: 10px !important;
+}
 .popumain{
     border-radius: 0px;
     width: 100% !important;
@@ -125,7 +144,8 @@ button{
 }
 .poputitre{
     margin-top: 20px;
-        font-size: 1.4rem;
+    font-size: 1.4rem;
+    padding-left: unset !important;
 }
 .boitepopulaires{
     width: 100%;
@@ -169,7 +189,7 @@ button{
     padding-top: 40px;
     padding-bottom: 20px;
     
-    font-size: 
+
 }
 .boitehebergement{
     display: grid !important;
@@ -182,6 +202,7 @@ padding-left: unset !important;
     width: 100% !important;
     height: 220px !important;
     margin: 5px 0 !important;
+    box-shadow: 0px 1px 4px #F2F2F2;
 }
 .tote{
     width: 100%;
@@ -195,6 +216,12 @@ padding-left: unset !important;
 }
 .fig{
 margin-top: -24px !important;
+}
+.cat{
+    padding-top: 10px;
+}
+.etoile{
+    padding-top: 20px;
 }
 .pht{
     width: 100% !important;
@@ -254,9 +281,7 @@ margin: 15px;
     .filtericone{
         flex-wrap: wrap;
     }
-    .filtre{
-        border:
-    }
+    
     .inscription{
         color: unset !important;
     }
